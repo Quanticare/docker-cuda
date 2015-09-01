@@ -1,4 +1,4 @@
-FROM quay.io/quanticare/opencv
+FROM ubuntu:14.04.2
 MAINTAINER Savant Krishna <savant@quanti.care>
 
 # A docker container with the Nvidia kernel module and CUDA drivers installed
