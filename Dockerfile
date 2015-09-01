@@ -16,7 +16,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN mkdir -p /tmp-cuda && cd /tmp-cuda && \
   #axel -n16 $CUDA_RUN && \
-  axel -n16 $CUDA_DEB && \
+  axel -n16 -q $CUDA_DEB && \
   #chmod +x *.run && \
   #mkdir nvidia_installers && \
   #./cuda_7.0.28_linux.run -extract=`pwd`/nvidia_installers && \
