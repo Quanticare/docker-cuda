@@ -1,7 +1,12 @@
+# Image based on Ubuntu 14.04 with CUDA installed
+#
+# Copyright (c) 2015- Quanticare Technologies
+
+# Base Image
 FROM ubuntu:14.04.2
+
 MAINTAINER Savant Krishna <savant@quanti.care>
 
-# A docker container with the Nvidia kernel module and CUDA drivers installed
 #RUN sed -i "s/archive\.ubuntu/mirrors.digitalocean/g" /etc/apt/sources.list
 
 #ENV CUDA_DEB http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.0-28_amd64.deb
